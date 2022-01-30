@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Nov 16 16:56:21 2021
+# Process ID: 6220
+# Current directory: C:/Users/tazvi/lab3_part3/lab3_part3.runs/synth_1
+# Command line: vivado.exe -log SevenSegments2digits.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SevenSegments2digits.tcl
+# Log file: C:/Users/tazvi/lab3_part3/lab3_part3.runs/synth_1/SevenSegments2digits.vds
+# Journal file: C:/Users/tazvi/lab3_part3/lab3_part3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SevenSegments2digits.tcl -notrace

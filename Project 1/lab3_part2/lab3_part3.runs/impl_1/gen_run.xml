@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1637106979">
+  <File Type="ROUTE-PWR" Name="SevenSegments2digits_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="SevenSegments2digits.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="SevenSegments2digits_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="SevenSegments2digits_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="SevenSegments2digits.msk"/>
+  <File Type="ROUTE-CLK" Name="SevenSegments2digits_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="SevenSegments2digits.vdi"/>
+  <File Type="BG-BIT" Name="SevenSegments2digits.bit"/>
+  <File Type="BG-DRC" Name="SevenSegments2digits.drc"/>
+  <File Type="BG-BGN" Name="SevenSegments2digits.bgn"/>
+  <File Type="BG-BIN" Name="SevenSegments2digits.bin"/>
+  <File Type="BITSTR-RBT" Name="SevenSegments2digits.rbt"/>
+  <File Type="BITSTR-NKY" Name="SevenSegments2digits.nky"/>
+  <File Type="BITSTR-BMM" Name="SevenSegments2digits_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="SevenSegments2digits_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="SevenSegments2digits.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="SevenSegments2digits.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="SevenSegments2digits.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-DRC" Name="SevenSegments2digits_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="SevenSegments2digits.hwdef"/>
+  <File Type="PLACE-IO" Name="SevenSegments2digits_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="SevenSegments2digits_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="SevenSegments2digits_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="SevenSegments2digits_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="SevenSegments2digits_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="SevenSegments2digits_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="SevenSegments2digits_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="SevenSegments2digits_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="SevenSegments2digits_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="SevenSegments2digits_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="SevenSegments2digits_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="SevenSegments2digits_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="SevenSegments2digits_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="SevenSegments2digits_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="SevenSegments2digits_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="SevenSegments2digits_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW" Name="SevenSegments2digits_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="SevenSegments2digits_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="SevenSegments2digits_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="SevenSegments2digits_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="SevenSegments2digits_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="SevenSegments2digits_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="SevenSegments2digits_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="SevenSegments2digits_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="SevenSegments2digits_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="SevenSegments2digits_postroute_physopt_bb.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SevenSegments2digits_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="SevenSegments2digits_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="SevenSegments2digits_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="SevenSegments2digits.pdi"/>
+  <File Type="RCFI_FILE" Name="SevenSegments2digits.rcfi"/>
+  <File Type="CFI_FILE" Name="SevenSegments2digits.cfi"/>
+  <File Type="RNPI_FILE" Name="SevenSegments2digits.rnpi"/>
+  <File Type="NPI_FILE" Name="SevenSegments2digits.npi"/>
+  <File Type="RBD_FILE" Name="SevenSegments2digits.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Downloads/lab3_part3 .vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SevenSegments2digits"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../Downloads/lab3_part3_const.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
